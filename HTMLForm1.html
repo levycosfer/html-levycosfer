@@ -1,11 +1,33 @@
 <title>Formulário de Cadastro</title>
 <html>
     <body>
+        <h3>1 Teste: (salva os dados que aparece a barra do navegador)</h3>    
+        <form name="signup" method="GET" actio="#">
+            Nome: <input type="text" name="name"/><br>
+            Idade: <input type="number" name="age"/><br>
+            Senha: <input type="password" name="password"/><br>
+            <button type="submit">Enviar</button>
+
+        <h3>2 Teste: (salva sem aparece a barra do navegador)</h3>
         <form name="signup" method="POST" actio="#">
             Nome: <input type="text" name="name"/><br>
             Idade: <input type="number" name="age"/><br>
             Senha: <input type="password" name="password"/><br>
             <button type="submit">Enviar</button>
+
+        <h3>3 Teste: (Não salva os dados cadastro de volta)</h3>    
+        <form name="signup" autocomplete="off" method="POST" actio="#">
+            Nome: <input type="text" name="name"/><br>
+            Idade: <input type="number" name="age"/><br>
+            Senha: <input type="password" name="password"/><br>
+            <button type="submit">Enviar</button>
+        
+        <h3>4 Teste: (Botão que confirma, enviar e aparece mensagem alerta)</h3>    
+        <form name="signup" onsubmit="alert('Enviado seu formulário com sucesso!!!');" method="POST" actio="#">
+            Nome: <input type="text" name="name"/><br>
+            Idade: <input type="number" name="age"/><br>
+            Senha: <input type="password" name="password"/><br>
+            <button type="submit">Enviar</button>    
         </form>
     </body>
 </html>
