@@ -1,0 +1,26 @@
+body {
+    background-color:#4effb8;
+    padding-bottom: 20px;
+}
+header {
+    background-color:#4e54ff;
+    padding: 10px;
+}
+main {
+    background-color:#a3a6ff;
+    padding: 10px;
+}
+footer {
+    background-color:#ababab;
+    padding: 10px;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(12, 12, 104);
+}
