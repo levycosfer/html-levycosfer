@@ -11,14 +11,6 @@ header {
     text-align: center;
 }
 
-.imagem-circular {
-    width: 120px; /* Define a largura da imagem */
-    height: 120px; /* Define a altura da imagem */
-    border-radius: 50%; /* Faz a imagem ficar circular */
-    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda branca */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Adiciona uma leve sombra para dar efeito */
-  }
-
 main {
     background-color:#ffffff48;
     padding-top: 10px;
@@ -39,7 +31,7 @@ footer {
     text-align: center;    
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, text, textarea{
     font-family: "Afacad Flux", serif;
     font-style: medium;
     font-weight: 500;
@@ -48,4 +40,65 @@ h1, h2, h3, h4{
 
 h2{
     color: rgb(12, 12, 104);
+}
+
+.imagem-circular {
+    width: 120px; /* Define a largura da imagem */
+    height: 120px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda branca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Adiciona uma leve sombra para dar efeito */
+  }
+
+.rede-social {
+    width: 45px; /* Define a largura da imagem */
+    height: 45px; /* Define a altura da imagem */
+    padding: 10px 10px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    gap: 20px;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+#contato { 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    padding: 30px 10px 30px 10px;
+}
+
+#contato input, #contato textarea, #contato button {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff73;
+    outline: 20px solid transparent;
+    color: rgb(0, 0, 0);
+    font-size: 17px; /* Tamanho da letra */
+}
+
+#contato button {
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
 }
