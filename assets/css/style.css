@@ -1,24 +1,37 @@
 body {
-    background-color:mediumspringgreen;
+    background-image: linear-gradient(mediumspringgreen,rgb(0, 189, 22)); /*Fundo da cor gradiente*/
     padding-bottom: 20px;
 }
 
 header {
-    background-color:#4e54ff;
+    background-color:#00000039, transparent;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
+.imagem-circular {
+    width: 120px; /* Define a largura da imagem */
+    height: 120px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda branca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Adiciona uma leve sombra para dar efeito */
+  }
+
 main {
-    background-color:#a3a6ff, transparent;
-    padding-left: 150px;
-    padding-right: 150px;
+    background-color:#ffffff48;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 15px; /* Faz a imagem ficar circular */
 }
 
 footer {
-    background-color:#ababab;
+    background-color:#dddddd4e, transparent;
     width: 100%;
     height: 100%;
     padding-top: 10px;
@@ -26,10 +39,11 @@ footer {
     text-align: center;    
 }
 
-h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: blue;
-    background-color: rgb(255, 255, 255);
+h1, h2, h3, h4{
+    font-family: "Afacad Flux", serif;
+    font-style: medium;
+    font-weight: 500;
+    color: black;
 }
 
 h2{
