@@ -5,8 +5,8 @@ body {
 
 header {
     background-color:#00000039, transparent;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
     text-align: center;
 }
@@ -17,8 +17,8 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 40px;
+    margin-left: 40px;
     border-radius: 15px; /* Faz a imagem ficar circular */
 }
 
@@ -31,7 +31,7 @@ footer {
     text-align: center;    
 }
 
-h1, h2, h3, h4, text, textarea{
+h1, h2, h3, h4, text, textarea, {
     font-family: "Afacad Flux", serif;
     font-style: medium;
     font-weight: 500;
@@ -51,54 +51,59 @@ h2{
   }
 
 .rede-social {
-    width: 45px; /* Define a largura da imagem */
-    height: 45px; /* Define a altura da imagem */
-    padding: 10px 10px;
+    width: 35px; /* Define a largura da imagem */
+    height: 35px; /* Define a altura da imagem */
+    padding: 5px 5px;
   }
 
+/* Estilo para o formulário */
 form {
     display: flex;
     flex-direction: column;
     width: 550px;
     gap: 20px;
-}
-
-button {
-    appearance: auto;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-}
-
-#contato { 
+    margin-top: 20px;
+  }
+  
+  /* Estilo da seção de contato */
+  #contato { 
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
+    padding: 30px 10px;
     margin-top: 2px;
-    padding: 30px 10px 30px 10px;
-}
-
-#contato input, #contato textarea, #contato button {
+  }
+  
+  /* Estilo dos campos de input, textarea e botão */
+  #contato input, #contato textarea, #contato button {
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
     font-weight: 500;
-    border-radius: 10px;
-    padding: 15px;
-    width: 100%;
+    border-radius: 12px;
+    padding: 10px;
+    width: 450px;
+    align-self: center;
     backdrop-filter: blur(10px);
     background-color: #ffffff73;
-    outline: 20px solid transparent;
-    color: rgb(0, 0, 0);
-    font-size: 17px; /* Tamanho da letra */
+    color: black;
+    font-size: 17px;
+    border: none;
 }
-
-#contato button {
+  
+  /* Estilo específico do botão */
+  #contato button {
+    font-family: "Afacad Flux", serif;
+    font-style: medium;
+    font-weight: 500;
+    color: black;
+    align-self: center;
+    width: 300px;
+    height: 60px;
     cursor: pointer;
     outline: none;
-    color: rgb(0, 0, 0);
-}
+    background-color: rgb(11, 86, 45);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
