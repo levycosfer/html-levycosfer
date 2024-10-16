@@ -1,6 +1,12 @@
 body {
     background-image: linear-gradient(mediumspringgreen,rgb(0, 189, 22)); /*Fundo da cor gradiente*/
     padding-bottom: 20px;
+    /*
+    background-image: url(../images/background-03.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgb(12, 193, 93);
+    */
 }
 
 header {

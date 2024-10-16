@@ -1,0 +1,176 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/logocoelho.png), url(../images/background-02.jpg);
+  background-size: 120px;
+  border: 2px solid red;
+}
+
+.exemplo-position {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logocoelho.png), url(../images/background-02.jpg);
+    background-size: 120px;
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .exemplo2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logocoelho.png), url(../images/background-02.jpg);
+    background-size: cover;
+    border: 2px solid red;
+    overflow: auto;
+  }
+
+  .exemplo3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/logocoelho.png), url(../images/background-02.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen;
+    padding: 30px;
+  }
+
+  .exemplo4 {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: palevioletred; 
+    background: #36c;
+    background-color: hsl(34, 53%, 82%);
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+      hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+      hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+      ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+      hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+      hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+    );
+  } /*https://projects.verou.me/css3patterns/*/
+
+  .exemplo5 {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: rgb(142, 142, 142);
+    background-image: url(../images/background-03.jpg);
+    background-blend-mode: overlay;
+  }
+
+/* Exemplo */
+
+#cover {
+  background-size: cover;
+}
+
+#contain {
+  background-size: contain;
+}
+
+#tamanho {
+  background-size: 150px;
+}
+
+#exemplo-x-y {
+  background-size: 200px 250px;
+}
+
+#exemplo-camadas {
+  background-size: 200px 100%, cover;
+}
+
+#exemplo-repeat {
+    background-repeat: repeat;
+  }
+
+  #exemplo-repeat-x {
+    background-repeat: repeat-x;
+  }
+
+  #exemplo-repeat-y {
+    background-repeat: repeat-y;
+  }
+
+  #exemplo-space {
+    background-repeat: space;
+  }
+
+  #exemplo-round {
+    background-repeat: round;
+  }
+
+  #exemplo-no-repeat {
+    background-repeat: no-repeat;
+  }
+
+  #exemplo-position {
+    background-repeat: no-repeat;
+  }
+
+  #exemplo-fixed {
+    background-attachment: fixed;
+  }
+
+  #exemplo-scroll {
+    background-attachment: scroll;
+  }
+
+  #exemplo-local {
+    background-attachment: local;
+  }
+
+  #exemplo-origin-padding-box {
+    background-origin: padding-box;
+  }
+
+  #exemplo-origin-border-box {
+    background-origin: border-box;
+  }
+
+  #exemplo-origin-content-box {
+    background-origin: content-box;
+  }
+
+  #exemplo-clip-padding-box {
+    background-clip: padding-box;
+  }
+
+  #exemplo-clip-border-box {
+    background-clip: border-box;
+  }
+
+  #exemplo-clip-content-box {
+    background-clip: content-box;
+  }
+
+  #exemplo-clip-text {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+  }
+
+  #exemplo-clip-border-box {
+    background-clip: border-box;
+  }
