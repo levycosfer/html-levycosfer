@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
 body {
     background-image: linear-gradient(mediumspringgreen,rgb(0, 189, 22)); /*Fundo da cor gradiente*/
     padding-bottom: 20px;
@@ -38,11 +40,8 @@ footer {
 }
 
 h1, h2, h3, h4, text {
-    font-family: "Afacad+Flux", serif;
-    font-style: medium;
-    font-weight: 500;
-    color: black;
-    font-size: 21px;
+  font-family: Afacad Flux;
+  font-size: 25px;
 }
 
 h2{
