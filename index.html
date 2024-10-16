@@ -13,19 +13,22 @@
       <div><img src="./assets/images/perfil-levycosfer.png" alt="Perfil Levycosfer" class="imagem-circular"></div>
       <h1 style="text-align: center;">Contato LevyCosfer</h1>
       <p><h3 style="color:rgb(13, 77, 0);">Rede Social:</h3>
-      <a href="https://bit.ly/wpp-levycosfer/">
+      <a href="https://bit.ly/wpp-levycosfer/" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/whatsapp.png" alt="Logo do WhatsApp" class="rede-social">
-      <a href="https://www.facebook.com/levycosfer">
+      <a href="https://www.facebook.com/levycosfer" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/facebook.png" alt="Logo do Facebook" class="rede-social">
-      <a href="https://www.instagram.com/levycosfer">
+      <a href="https://www.instagram.com/levycosfer" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/instagram.png" alt="Logo do Instagram" class="rede-social">
-      <a href="https://www.youtube.com.br/levycosfer">
+      <a href="https://www.youtube.com.br/levycosfer" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/youtube.png" alt="Logo do Youtube" class="rede-social">
-      <a href="https://www.linkedin.com/in/levy-costa-ferreira-548680155/">
+      <a href="https://www.linkedin.com/in/levy-costa-ferreira-548680155/" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/linkedin.png" alt="Logo do LinkedIn" class="rede-social">
-      <a href="https://x.com/levycosfer">
+      <a href="https://x.com/levycosfer" style="text-decoration: none; color: inherit;">
         <img src="./assets/images/x twitter.png" alt="Logo do X" class="rede-social"></a>
-      </p>
+      </p> <!--Botões para clicar os links
+      <p><button id="link-button"><a href="https://vistoamericanolibras.com.br" style="text-decoration: none; color: inherit;">Visto Americano LIBRAS</a></button></p>
+      <p></p><button id="link-button"><a href="https://seminariodevidaplena.com.br" style="text-decoration: none; color: inherit;">Seminário de Vida Plena</a></button></p>
+      -->
     </nav>
   </header>
   <main>
@@ -43,7 +46,7 @@
   <footer>
     <section id="contato">
       <h1>Entre em Contato</h1>
-      <form action="https://formsubmit.co/levycosfer@gmail.com" method="POST" id="contact-form">
+      <form action="https://formsubmit.co/levycosfer@gmail.com" method="POST" id="contact-form" onsubmit="alert('Sua mensagem foi enviada com sucesso! Obrigado');">
         <input type="text" id="name" name="name" required placeholder="Digite seu nome">
         <input type="email" id="email" name="email" required placeholder="Digite seu email">
         <input type="text" id="subject" name="subject" required placeholder="Assunto">
@@ -57,13 +60,16 @@
     </section>
   </a>
     <p style="text-align: center;">
-      <a href="HTMLForm1.html">Form Cadastro</a>
+      <!--<a href="HTMLForm1.html">Form Cadastro</a> 
       <a href="HTMLForm2.html">Form Teste2</a>
-      <a href="HTMLForm3.html">Form Teste3</a>
-      <h5 style="text-align: center;"><a href="https://github.com/levycosfer/">Github by levycosfer</h5></a>
-      <p><h5 style="text-align: center;">Copyright 2024</h5></p>
+      <a href="HTMLForm3.html">Form Teste3</a>-->
+      <h5><a href="https://github.com/levycosfer" style="text-decoration: none; color: black;">Github by levycosfer (<span id="year"></span>)</a></h5>
       </h5>
     </p>
   </footer>
+  <script>
+    // Atualiza automaticamente o ano atual
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
